@@ -1,4 +1,5 @@
-import localforage from "localforage";
+
+// import localforage from "localforage";
 
 let storage = {};
 let store;
@@ -63,7 +64,7 @@ function removeItem(key) {
 }
 
 export default function(options) {
-  store = localforage.createInstance(options);
+
   return {
     getStore,
     getItem,

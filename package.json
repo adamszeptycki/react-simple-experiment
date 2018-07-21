@@ -1,6 +1,6 @@
 {
   "name": "react-simple-experiment",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Simple A/B testing for React",
   "keywords": [
     "react",
@@ -34,7 +34,6 @@
     "react": ">=16.3"
   },
   "dependencies": {
-    "localforage": "1.7.1",
     "prop-types": "15.6.1"
   },
   "devDependencies": {
